@@ -50,7 +50,7 @@ public class PokemonDatabase : MonoBehaviour
                 {
                     moveListDatabase.moveList["Tackle"],
                     moveListDatabase.moveList["Sand Attack"],
-                    moveListDatabase.moveList["Growl"]
+                    moveListDatabase.moveList["Gust"]
                 }
             };
 

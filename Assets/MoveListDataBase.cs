@@ -18,6 +18,7 @@ public class MoveListDataBase : MonoBehaviour
         MoveList Scratch = new MoveList("Scratch", 7, 35, 40, 100, MoveList.MoveType.Normal);
         MoveList Ember = new MoveList("Ember", 8, 25, 40, 100, MoveList.MoveType.Fire);
         MoveList SandAttack = new MoveList("Sand Attack", 9, 15, 0, 100, MoveList.MoveType.Ground);
+        MoveList Gust = new MoveList("Gust", 10, 35, 40, 100, MoveList.MoveType.Flying);
 
         moveList.Add("Tackle", Tackle);
         moveList.Add("Leech Seed", LeechSeed);
@@ -28,5 +29,6 @@ public class MoveListDataBase : MonoBehaviour
         moveList.Add("Scratch", Scratch);
         moveList.Add("Ember", Ember);
         moveList.Add("Sand Attack", SandAttack);
+        moveList.Add("Gust", Gust);
     }
 }
